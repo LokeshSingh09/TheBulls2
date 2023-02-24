@@ -2,7 +2,7 @@
         display: block;
         width: 100%;
         height: 50vh;
-        background-color: pink;
+        /* background-color: pink; */
     }
     
     .head-text-outer {
@@ -95,7 +95,7 @@
     
     @media (max-width:1200px) {
         .Section_2 {
-            height: 190vh;
+            height: 120vh;
             display: block;
         }
         /* .stock-chain {

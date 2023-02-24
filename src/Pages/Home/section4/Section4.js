@@ -1,230 +1,101 @@
 import React from 'react'
 import './section4.css'
+import {FaTelegram,FaInstagram,FaLinkedin,FaYoutube} from 'react-icons/fa';
 
 const Section4 = () => {
   return (
-    <div className='section4'>
+    <div className='Section4'>
+<div className="head">
+  <h1 className='head_main'>Trusted By Users.</h1>
+  <p className='head_lines'>Definitely We are leading the conversations on all social media. Here are some of them.</p>
+</div>
+<div className="card_section">
 
-      <div className='comunity-box'>
-        <h1 className='section4_head'>Our Community</h1>
-      </div>
-      <div className='comunity-member-box'>
-
-        <div className='member-div-row1'>
-          <div className='row1-image-data'>
-            <div className='row1-img'>
-              <img src="../../community/Lokesh.jpg" alt="" />
-            </div>
-            <div className='row1-member-name'>
-              <h3>Lokesh</h3>
-            </div>
-          </div>
-
-          <div className='row1-image-data'>
-            <div className='row1-img'>
-              <img src="../../community/Chaman.jpg" alt="" />
-            </div>
-            <div className='row1-member-name'>
-              <h6>Chaman </h6>
-            </div>
-          </div>
-
-          <div className='row1-image-data'>
-            <div className='row1-img'>
-              <img src="../../community/Himanshu.jpg" alt="" />
-            </div>
-            <div className='row1-member-name'>
-              <h6>Himanshu </h6>
-            </div>
-          </div>
-
-          <div className='row1-image-data'>
-            <div className='row1-img'>
-              <img src="../../community/Gaurav.jpg" alt="" />
-            </div>
-            <div className='row1-member-name'>
-              <h6>Gaurav</h6>
-            </div>
-          </div>
-
-        </div>
-
-
-        <div className='member-div-row2'>
-          <div className='row2-image-data'>
-            <div className='row2-img'>
-              <img src="../../community/Vaibhav.jpg" alt="" />
-            </div>
-            <div className='row2-member-name'>
-              <h6>Vaibhav </h6>
-            </div>
-          </div>
-
-          <div className='row2-image-data'>
-            <div className='row2-img'>
-              <img src="../../community/Harsh.jpg" alt="" />
-            </div>
-            <div className='row2-member-name'>
-              <h6>Harsh </h6>
-            </div>
-          </div>
-
-          <div className='row2-image-data'>
-            <div className='row2-img'>
-              <img src="../../community/Priyanshu.jpg" alt="" />
-            </div>
-            <div className='row2-member-name'>
-            <h6>Priyanshu </h6>
-            </div>
-          </div>
-
-          <div className='row2-image-data'>
-            <div className='row2-img'>
-              <img src="../../community/Anshuman.jpg" alt="" />
-            </div>
-            <div className='row2-member-name'>
-              <h6>Anshuman </h6>
-            </div>
+<div className="cards-wrapper">
+        <div className="card">
+          <img src="../../card/Akash.jpg" className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Akash Yadav</h5>
+            <p className="card-text">"I trust your judgment completely when it comes to financial matters. You have always steered me in the right direction."</p>
+            
           </div>
         </div>
-
-
-
-
-        {/* <div className='member-div-row3'>
-          <div className='row3-image-data'>
-            <div className='row3-img'>
-              <img src="../../co1.jpg" alt="" />
-            </div>
-            <div className='row3-member-name'>
-              <h6>Lokesh </h6>
-            </div>
+        <div className="card">
+          <img src="../../card/Anshuman.jpg" className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Anshuman</h5>
+            <p className="card-text">"Your knowledge of tax laws and regulations is impressive and has saved me a lot of money over the years."</p>
+           
           </div>
-
-          <div className='row3-image-data'>
-            <div className='row3-img'>
-              <img src="../../co1.jpg" alt="" />
-            </div>
-            <div className='row3-member-name'>
-              <h6>Lokesh </h6>
-            </div>
+        </div>
+        <div className="card">
+          <img src="../../card/Chetan.jpg" className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Chetan</h5>
+            <p className="card-text">"I'm grateful for your guidance and support in achieving my financial goals. Thank you for always being there to help."</p>
+           
           </div>
-
-          <div className='row3-image-data'>
-            <div className='row3-img'>
-              <img src="../../co1.jpg" alt="" />
-            </div>
-            <div className='row3-member-name'>
-              <h6>Lokesh </h6>
-            </div>
-          </div>
-
-          <div className='row3-image-data'>
-            <div className='row3-img'>
-              <img src="../../co1.jpg" alt="" />
-            </div>
-            <div className='row3-member-name'>
-              <h6>Lokesh </h6>
-            </div>
-          </div>
-        </div> */}
-
-
-
-
-        <div className='member-div-row4'>
-          <div className='row4-image-data'>
-            <div className='row4-img'>
-              <img src="../../community/Chetan.jpg" alt="" />
-            </div>
-            <div className='row4-member-name'>
-              <h6>Chetan </h6>
-            </div>
-          </div>
-
-          <div className='row4-image-data'>
-            <div className='row4-img'>
-              <img src="../../community/Riyansh.jpg" alt="" />
-            </div>
-            <div className='row4-member-name'>
-              <h6>Riyansh </h6>
-            </div>
-          </div>
-
-          <div className='row4-image-data'>
-            <div className='row4-img'>
-              <img src="../../community/Vikas.jpg" alt="" />
-            </div>
-            <div className='row4-member-name'>
-              <h6>Vikas </h6>
-            </div>
-          </div>
-
-          <div className='row4-image-data'>
-            <div className='row4-img'>
-              <img src="../../community/Sachin.jpg" alt="" />
-            </div>
-            <div className='row4-member-name'>
-              <h6>Sachin </h6>
-            </div>
+        </div>
+        <div className="card">
+          <img src="../../card/Riyansh.jpg" className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h5 className="card-title">Riyansh</h5>
+            <p className="card-text">"Your financial advice has been invaluable to me and has helped me make smart decisions with my money."</p>
+            
           </div>
         </div>
       </div>
+      
+</div>
+
+
+<div className='Footer'>
+
+
+<div className="contact_form">
+
+<div class="contactForm">
+            <h3>Contact Us</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name"></input>
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email"></input>
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Write something....."></textarea>
+            </div>
+            <div class="buttons">
+                <a href="/submit.txt" target="_blank">
+                    <button>submit</button></a>
+            </div>
+            </div>
+</div>
+<div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Learn</a></li>
+                      <li><a href="#">Tools</a></li>
+                      <li><a href="#">About</a></li>
+                    </ul>
+                  </div>
+
+                    <div class="social-links">
+                    <h4>Follow Us</h4>
+                      <a href="https://t.me/+mABxijuFbBVjZjE1"><i className="fab-telegram"><FaTelegram></FaTelegram></i></a>
+                      <a href="https://youtube.com/@lokeshrajput9999"><i className="fab-youtube"><FaYoutube></FaYoutube></i></a>
+                      <a href="https://instagram.com/official_lokeshrajput?igshid=YmMyMTA2M2Y="><i className="fab-instagram"><FaInstagram></FaInstagram></i></a>
+                      <a href="https://www.linkedin.com/in/lokesh-singh-9283101bb"><i className="fab-linkdin-in"><FaLinkedin></FaLinkedin></i></a>
+                      </div>
+</div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-      {/* <ul className='section_img'>
-        <li>
-          <img src="../../co1.jpg" alt="" />
-          <h6>Lokesh </h6>
-        </li>
-        <li>
-          <img src="../../co2.jpg" alt="" />
-          <h6>Chaman </h6>
-        </li>
-        <li>
-          <img src="../../co3.jpg" alt="" />
-          <h6>Anshuman</h6>
-        </li>
-        <li>
-          <img src="../../co1.jpg" alt="" />
-          <h6>Gaurav </h6>
-        </li>
-        <li>
-          <img src="../../co2.jpg" alt="" />
-          <h6>Himanshu </h6>
-        </li>
-        <li>
-          <img src="../../co3.jpg" alt="" />
-          <h6>Akash  </h6>
-        </li>
-        <li>
-          <img src="../../co3.jpg" alt="" />
-          <h6>Vikas  </h6>
-        </li>
-        <li>
-          <img src="../../co3.jpg" alt="" />
-          <h6>Priyanshu </h6>
-        </li>
-        <li>
-          <img src="../../co3.jpg" alt="" />
-          <h6>Chetan </h6>
-        </li>
-      </ul> */}
 
     </div>
   )
 }
 
 export default Section4
+

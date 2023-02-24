@@ -8,19 +8,21 @@ const Section1 = () => {
     <Carousel className='main-slide'>
     
                 <div className='c1'>
-                    <img src="../../bg.jpg" />
-                    <h1 className='c1_text'>Eat Sleep Trade Repeat...</h1>
+                <img src="../../c3.jpg" />
+                    <button >Start Your Financial Journey Today</button>
+                    
                     {/* <p className="legend"></p> */}
                 </div>
                 <div>
                     <img src="../../c2.jpg" />
                     {/* <p className="legend"></p> */}
-                    <h1 className='c1_text'>It is impossible to understand the markets without understanding human behaviour</h1>
+                    {/* <h1 className='c1_text'>It is impossible to understand the markets without understanding human behaviour</h1> */}
                 </div>
                 <div>
-                    <img src="../../c3.jpg" />
+                <img src="../../bg.jpg" />
                     {/* <p className="legend"></p> */}
-                    <h1 className='c1_text'>The hardest thing to judge is what level of risk is safe</h1>
+                    <h1 className='c1_text'>Eat Sleep Trade Repeat...</h1>
+                    {/* <h1 className='c1_text'>The hardest thing to judge is what level of risk is safe</h1> */}
                 </div>
             </Carousel>
 
