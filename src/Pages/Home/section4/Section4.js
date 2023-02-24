@@ -74,11 +74,12 @@ const Section4 = () => {
 <div class="footer-col">
                     <h4>Company</h4>
                     <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Learn</a></li>
-                      <li><a href="#">Tools</a></li>
-                      <li><a href="#">About</a></li>
+                      <li><a href="/">Home</a></li>
+                      <li><a href="/blogs">Learn</a></li>
+                      <li><a href="/tools">Tools</a></li>
+                      <li><a href="/about">About</a></li>
                     </ul>
+                    
                   </div>
 
                     <div class="social-links">
